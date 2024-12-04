@@ -1,0 +1,39 @@
+/* 169031080 fahad sheikh */
+
+body {
+    font-family: 'Arial', sans-serif;
+    color: #1a2d43;
+    line-height: 1.6;
+}
+
+.resume {
+    max-width: 800px;
+    margin: auto;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 5px rgba(33, 2, 2, 0.1);
+    padding: 20px;
+}
+
+.resume .resume-header table, .resume .resume-header th, .resume .resume-header td {
+    border: 0.5px solid #ccc;
+    padding: 8px;
+}
+
+.resume .profile-pic img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.resume section h2 {
+    color: #4A90E2;
+    font-size: 20px;
+    border-bottom: 2px solid #eee;
+}
+
+.resume section p {
+    padding: 10px;
+    background-color: #f2f2f2;
+    border-left: 4px solid #1a2d43;
+}

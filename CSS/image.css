@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+.projects-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px 0;
+}
+
+.project-item {
+    flex-basis: 45%; /* Adjusted for better visibility */
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border: 1px solid #007BFF;
+    border-radius: 10px;
+    background: #f4f4f4;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+.detail-box {
+    text-align: left;
+    padding: 20px;
+    margin-top: 20px;
+    background-color: #fff;
+    box-shadow: inset 0 0 10px rgba(0,0,0,0.05);
+    border-radius: 5px;
+}
+
+.project-item img {
+    width: 80%; /* Adjusted width to make images smaller and to scale */
+    height: auto;
+    display: block;
+    transition: transform 0.3s ease-in-out;
+    margin: 10px auto; /* Center image and add margin */
+}
+
+
+.project-item p {
+    margin: 10px;
+    color: #333;
+    font-size: 16px;
+    line-height: 1.5; /* Increased line spacing for better readability */
+}
+
+
+.project-item img {
+    max-width: 100%;  /* Ensures image width does not exceed its container */
+    height: auto;     /* Maintains the aspect ratio */
+    display: block;
+    margin: 10px auto; /* Centers the image horizontally */
+    object-fit: contain; /* Ensures the complete image is shown without cropping */
+}
+
+.project-overview {
+    background-color: #f8f8f8; /* Slightly off-white for subtle contrast */
+    padding: 20px;
+    margin: 20px auto; /* Centers the box and adds margin for spacing */
+    width: 90%; /* Restricts the box to a reasonable width */
+    border-left: 5px solid #007BFF; /* Adds a blue accent line for visual interest */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Soft shadow for depth */
+    text-align: center; /* Centers the text inside the box */
+}
+
+.project-overview h2 {
+    color: #007BFF; /* Blue color for the title for consistency with the site's theme */
+    margin-bottom: 10px; /* Adds space below the title */
+}
+
+.project-overview p {
+    font-size: 16px; /* Standard font size for readability */
+    color: #333; /* Dark grey color for contrast and readability */
+}
+
+
+.project-item img {
+    width: 200px;  /* Fixed width for images */
+    height: 320px; /* Fixed height for images */
+    object-fit: cover; /* Ensures the image covers the area without distorting the aspect ratio */
+    display: block;
+    margin: 0 auto; /* Centers the image horizontally and removes vertical margin */
+    transition: transform 0.3s ease-in-out; /* Smooth transition for hover effects */
+}

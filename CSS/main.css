@@ -1,0 +1,79 @@
+/* 169031080 fahad sheikh */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    background-color: #e6f4f9;
+}
+
+header {
+    width: 100%;
+    background-color: #4A90E2;
+    color: white;
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+header li {
+    margin: 0 10px;
+}
+
+header li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 10px 15px;
+    transition: color 0.3s ease;
+}
+
+header li a:hover {
+    color: #ffcc00;
+}
+
+main {
+    flex: 1;
+    padding: 20px;
+    overflow: auto;
+}
+
+footer {
+    background-color: #003366;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.logo {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: white;
+}
+
+@media (max-width: 768px) {
+    header ul {
+        flex-direction: column;
+    }
+    header li a {
+        padding: 8px;
+    }
+}
